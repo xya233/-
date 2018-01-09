@@ -1,0 +1,39 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	margin: 30px;
+}
+.logo{
+    height: 80px;
+    float: left;
+}
+.nav-title{
+    text-align: center;
+    line-height: 80px;
+    font-size: 40px;
+}
+#mapApp{
+    height: 1050px;
+    width: 1600px;
+    float: left;
+}
+#radar{
+    position: absolute;
+    left: 1500px;
+    top: 100px;
+    height: 500px;
+    width: 500px;
+}
+#switch{
+    position: absolute;
+    left: 1500px;
+    top: 630px;
+    width: 500px;
+}
+#text{
+    position: absolute;
+    left: 1500px;
+    top: 680px;
+    height: 500px;
+    width: 500px;
+    font-size: 25px;
+}
