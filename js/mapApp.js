@@ -6,7 +6,7 @@ var option = {
     baseOption: {
         tooltip: {
         trigger: 'item',
-        formatter: '{b}'
+        formatter: '{b}pm2.5:<br>{c} 微克/立方米'
     },
         visualMap: {
             min: 0,
@@ -73,9 +73,9 @@ var option = {
                 layoutCenter: ['57%','50%'],
                 layoutSize: 1,
                 tooltip: {
-                    trigger: 'item',
-                    formatter: '{b}'
-                },
+        trigger: 'item',
+        formatter: '{b}pm2.5: {c}μg/m3'
+    },
                 label: {
                             emphasis: {
                                 show: false
