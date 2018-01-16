@@ -12,28 +12,28 @@ body {
     font-size: 40px;
 }
 #mapApp{
-    height: 1050px;
-    width: 1600px;
+    height: 920px;
+    width: 1400px;
     float: left;
 }
 #radar{
     position: absolute;
-    left: 1500px;
+    left: 1400px;
     top: 100px;
-    height: 500px;
-    width: 500px;
+    height: 400px;
+    width: 400px;
 }
 #switch{
     position: absolute;
-    left: 1500px;
-    top: 630px;
-    width: 500px;
+    left: 1400px;
+    top: 530px;
+    width: 400px;
 }
 #text{
     position: absolute;
-    left: 1500px;
-    top: 680px;
-    height: 500px;
-    width: 500px;
+    left: 1400px;
+    top: 580px;
+    height: 400px;
+    width: 400px;
     font-size: 25px;
 }
